@@ -6,9 +6,7 @@ lista = []
 
 for n in cadena.split(" "):
 
-    if 4 < len(cadena.split(" ")):
+    if 4 <= len(cadena.split(" ")):
         lista.append(cadena.split(" "))
-    
 
-
-print(lista)
+print(lista) #no me sale
